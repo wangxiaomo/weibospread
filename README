@@ -6,7 +6,10 @@ prepare on mac:
 2, ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go) (install brew)
 3, brew install libevent
 4, sudo easy_install gevent pymongo Flask-PyMongo simplejson requests lxml tornado
-5, git clone git@github.com:MOON-CLJ/pygexf.git
- & git clone git@github.com:MOON-CLJ/weibo.git
- &sudo python setup.py install
-6, python simple.py or python t_server.py
+
+initialization:
+git clone git://github.com/MOON-CLJ/weibospread.git
+cd weibospread
+git submodule init && git submodule update
+# at last.
+python simple.py or python t_server.py

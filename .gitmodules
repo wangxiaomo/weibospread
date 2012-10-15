@@ -1,0 +1,6 @@
+[submodule "pygexf"]
+	path = pygexf
+	url = git://github.com/MOON-CLJ/pygexf.git
+[submodule "weibo"]
+	path = weibo
+	url = git://github.com/MOON-CLJ/weibo.git
